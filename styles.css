@@ -119,3 +119,23 @@ nav {
   text-align: center;
   text-decoration: underline;
 }
+
+a:link {
+  color: #b2beb5;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b2beb5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b2beb5;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #b2beb5;
+  text-decoration: none;
+}
