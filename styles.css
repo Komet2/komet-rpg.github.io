@@ -16,7 +16,7 @@ body {
 nav {
   padding: 0 1.5vh;
   height: 60px;
-  font-size: 3vh;
+  font-size: 35px;
   font-family: 'Inknut Antiqua';
   display: flex;
   justify-content: center;
@@ -25,9 +25,8 @@ nav {
 
 .nav-items {
   display: flex;
-  gap: 100px;
-  margin-left: 4vh;
-  margin-right: 4vh;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav-items > a {
@@ -55,10 +54,32 @@ nav {
   text-decoration: underline;
 }
 
+.chara-items {
+  width: 650px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Inknut Antiqua';
+  color: #b2beb5;
+  transition: 0.4s ease-in-out;
+  font-weight: 700;
+}
+
+.chara-items > a {
+  color: #b2beb5;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  font-weight: 700;
+}
+
+.chara-items:hover {
+  color: #b2beb5;
+  text-decoration: underline;
+}
+
 .line {
   display: flex;
   justify-self: center;
-  width: 80vh;
+  width: 65vw;
   height: 0.1vh;
   background-color: #b2beb5;
 }
@@ -73,30 +94,27 @@ nav {
 
 .text {
   margin-top: 50px;
-  margin-left: 70vh;
-  margin-right: 70vh;
+  width: 650px;
   font-family: 'Faustina';
-  font-size: 1.75vh;
+  font-size: 20px;
   color: #b2beb5;
   text-align: justify;
 }
 
 .textc {
   margin-top: 5px;
-  margin-left: 70vh;
-  margin-right: 70vh;
+  width: 650px;
   font-family: 'Faustina';
-  font-size: 1.75vh;
+  font-size: 20px;
   color: #b2beb5;
   text-align: justify;
 }
 
 .head {
+  width: 500px;
   margin-top: 50px;
-  margin-left: 70vh;
-  margin-right: 70vh;
   font-family: 'Inknut Antiqua';
-  font-size: 4vh;
+  font-size: 44px;
   color: #b2beb5;
   text-align: center;
   text-decoration: underline;
