@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 200vh; /* Make the content fill the page so the footer is at the bottom */
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  background-color: #1F383B;
+}
+
+nav {
+  padding: 0 1.5vh;
+  height: 60px;
+  font-size: 3vh;
+  font-family: 'Inknut Antiqua';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 100px;
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
+
+.nav-items > a {
+  color: #b2beb5;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  font-weight: 700;
+}
+
+.nav-items > a {
+  color: #b2beb5;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  font-weight: 700;
+}
+
+.nav-items .active {
+  color: #b2beb5;
+  pointer-events: none;
+  text-decoration: underline;
+}
+
+.nav-items:hover {
+  color: #b2beb5;
+  text-decoration: underline;
+}
+
+.line {
+  display: flex;
+  justify-self: center;
+  width: 80vh;
+  height: 0.1vh;
+  background-color: #b2beb5;
+}
+
+.line1 {
+  display: flex;
+  justify-self: center;
+  width: 40vh;
+  height: 0.1vh;
+  background-color: #b2beb5;
+}
+
+.text {
+  margin-top: 50px;
+  margin-left: 70vh;
+  margin-right: 70vh;
+  font-family: 'Faustina';
+  font-size: 1.75vh;
+  color: #b2beb5;
+  text-align: justify;
+}
+
+.textc {
+  margin-top: 5px;
+  margin-left: 70vh;
+  margin-right: 70vh;
+  font-family: 'Faustina';
+  font-size: 1.75vh;
+  color: #b2beb5;
+  text-align: justify;
+}
+
+.head {
+  margin-top: 50px;
+  margin-left: 70vh;
+  margin-right: 70vh;
+  font-family: 'Inknut Antiqua';
+  font-size: 4vh;
+  color: #b2beb5;
+  text-align: center;
+  text-decoration: underline;
+}
