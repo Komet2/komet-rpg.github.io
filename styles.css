@@ -139,3 +139,24 @@ a:active {
   color: #b2beb5;
   text-decoration: none;
 }
+
+table {
+  font-family: Faustina;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #b2beb5;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  color: #1F383B;
+  background-color: #b2beb5;
+}
+
+td:nth-child(even) {
+  background-color: #264348;
+}
